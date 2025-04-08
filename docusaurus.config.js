@@ -12,7 +12,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 const config = {
   title: "caonm",
   tagline: "",
-  favicon: "img/favicon.ico",
+  favicon: "img/favicon.png",
 
   // Set the production url of your site here
   url: "https://lunarifish.github.io",
@@ -58,12 +58,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
+      image: "favicon.png",
       navbar: {
-        title: "My Site",
+        title: "智能机械臂设计制造公司",
         logo: {
           alt: "My Site Logo",
-          src: "img/logo.svg",
+          src: "img/robot_arm.svg",
         },
         items: [
           {
@@ -83,7 +83,7 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "Docs",
+            title: "使用教程",
             items: [
               {
                 label: "Tutorial",
@@ -92,33 +92,20 @@ const config = {
             ],
           },
           {
-            title: "Community",
+            title: "联系方式",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-              {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
-                label: "X",
-                href: "https://x.com/docusaurus",
-              },
-            ],
-          },
-          {
-            title: "More",
-            items: [
-              {
-                label: "GitHub",
+                label: "Email > contact@bbbbb.ccc",
                 href: "https://github.com/facebook/docusaurus",
+              },
+              {
+                label: "电话 > 123456789",
+                to: "https://github.com/facebook/docusaurus",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} 智能机械臂设计制造公司, Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
