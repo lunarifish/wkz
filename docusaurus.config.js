@@ -10,15 +10,15 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "caonm",
-  tagline: "",
+  title: "智能机械臂",
+  tagline: "助力数字化智慧生产 开启智能制造新未来",
   favicon: "img/favicon.png",
 
   // Set the production url of your site here
   url: "https://lunarifish.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/",
+  baseUrl: "/wkz",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -60,7 +60,7 @@ const config = {
       // Replace with your project's social card
       image: "favicon.png",
       navbar: {
-        title: "智能机械臂设计制造公司",
+        title: "智能机械臂",
         logo: {
           alt: "My Site Logo",
           src: "img/robot_arm.svg",
